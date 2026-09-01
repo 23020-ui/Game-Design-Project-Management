@@ -10,8 +10,8 @@
   "name":"obj_bullet_mine",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player assets",
+    "path":"folders/Objects/player assets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

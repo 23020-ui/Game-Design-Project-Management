@@ -9,10 +9,13 @@
   "name":"obj_ship_mine",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"allies",
+    "path":"folders/Objects/allies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_faction_ally",
+    "path":"objects/obj_faction_ally/obj_faction_ally.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

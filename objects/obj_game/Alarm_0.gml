@@ -1,16 +1,7 @@
-if(room != rm_game){
+if(room != rm_game_2){
 	exit;
 }
-if(choose(0,1) == 0){
-	//go down the side
-	var xx = choose(0, room_width);
-	var yy = irandom_range(0, room_height);
-} else {
-	//go top or bottom
-	var xx = irandom_range(0, room_width);
-	var yy = choose(0, room_height)
-}
 
-instance_create_layer(xx, yy, "Instances", obj_asteroid_mine);
+spawn_off_camera(obj_asteroid_mine,3);
 
-alarm[0] = 4*room_speed;
+alarm[0] = 1*room_speed;

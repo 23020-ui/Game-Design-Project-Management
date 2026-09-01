@@ -9,8 +9,8 @@
   "name":"obj_asteroid_mine",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Neutral",
+    "path":"folders/Objects/Neutral.yy",
   },
   "parentObjectId":null,
   "persistent":false,
