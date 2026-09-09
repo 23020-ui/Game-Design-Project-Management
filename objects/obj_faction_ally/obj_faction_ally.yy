@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_faction_ally",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_faction_ally",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"obj code",
     "path":"folders/Objects/obj code.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_faction",
+    "path":"objects/obj_faction/obj_faction.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

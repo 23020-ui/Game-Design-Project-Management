@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_mine",
+  "%Name":"obj_faction",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_faction","path":"objects/obj_faction/obj_faction.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_mine",
+  "name":"obj_faction",
   "overriddenProperties":[],
   "parent":{
-    "name":"player assets",
-    "path":"folders/Objects/player assets.yy",
+    "name":"obj code",
+    "path":"folders/Objects/obj code.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spritebullet",
-    "path":"sprites/Spritebullet/Spritebullet.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

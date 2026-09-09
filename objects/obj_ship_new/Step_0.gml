@@ -1,0 +1,13 @@
+if(keyboard_check(vk_left)){
+	image_angle = image_angle + 5;
+}
+if(keyboard_check(vk_right)){
+	image_angle = image_angle - 5;
+}
+if (keyboard_check(vk_up)){
+	motion_add(image_angle, 0.05)
+}
+if (keyboard_check_direct(vk_space)){
+	create_bullet(image_angle, bulletSpd, faction, id);
+}
+move_wrap(true,true,sprite_width/2);

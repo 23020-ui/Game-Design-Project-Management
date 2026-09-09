@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_faction_enemy",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_faction_neutral",
+  "eventList":[],
   "managed":true,
-  "name":"obj_faction_enemy",
+  "name":"obj_faction_neutral",
   "overriddenProperties":[],
   "parent":{
     "name":"obj code",
