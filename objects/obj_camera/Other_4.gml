@@ -2,7 +2,6 @@
 
 global.cameraX = 0;
 global.cameraY = 0;
-target = obj_ship_mine;
 target = obj_ship_new;
 
 global.cameraWidth = 500;

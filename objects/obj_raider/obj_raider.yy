@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_raider",
-    "path":"sprites/spr_enemy_raider/spr_enemy_raider.yy",
+    "name":"spr_enemy_raider15",
+    "path":"sprites/spr_enemy_raider15/spr_enemy_raider15.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_hunter",
-    "path":"sprites/spr_enemy_hunter/spr_enemy_hunter.yy",
+    "name":"spr_enemy_hunter14",
+    "path":"sprites/spr_enemy_hunter14/spr_enemy_hunter14.yy",
   },
   "spriteMaskId":null,
   "visible":true,

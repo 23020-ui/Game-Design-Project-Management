@@ -3,8 +3,8 @@
   "%Name":"LINK_TO_TUTORIALS",
   "name":"LINK_TO_TUTORIALS",
   "parent":{
-    "name":"com.gamemaker",
-    "path":"com.gamemaker.yyp",
+    "name":"Space Rocks Game",
+    "path":"Space Rocks Game.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
