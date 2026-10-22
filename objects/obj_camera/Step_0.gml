@@ -8,8 +8,20 @@ if(instance_exists(target)){
 	global.cameraY = clamp(global.cameraY, 0, room_height-global.cameraHeight);
 }
 
+//Camera Shake
+global.cameraX += random_range(-global.cameraShake, global.cameraShake);
+global.cameraY += random_range(-global.cameraShake, global.cameraShake);
+
+if(global.cameraShake > 0){
+	global.cameraShake -= 0.2;
+	if(global.cameraShake < 0) global.cameraShake = 0;
+}
+
+//Set Camera POS
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
 
+
+//Parallax Background
 layer_x("Background", global.cameraX*.96);
 layer_y("Background", global.cameraY*.96);
 

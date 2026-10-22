@@ -1,9 +1,11 @@
 /// @desription Take Damage
+instance_destroy();
+
 
 score += 10;
 instance_destroy();
 audio_play_sound(snd_hurt, 1, false)
-instance_destroy();
+
 	
 if(sprite_index == spr_asteroid_large){
 	repeat(3){

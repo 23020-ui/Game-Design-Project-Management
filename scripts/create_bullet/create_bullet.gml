@@ -21,10 +21,12 @@ function create_bullet(_dir,_spd,_fac,_creator,_gun_type){
 		
 			var _sep = 12;
 
-			var inst = instance_create_layer(x+lengthdir_x(_sep,_dir+90),y+lengthdir_y(_sep,_dir+90), "Instances", obj_bullet_mine);
+			var inst = instance_create_layer(
+			x+lengthdir_x(_sep,_dir+90),y+lengthdir_y(_sep,_dir+90), "Instances", obj_bullet_mine);
 			initialise_bullet(_dir,_spd,_fac, id, inst);
 		
-			var inst = instance_create_layer(x+lengthdir_x(_sep,_dir-90),y+lengthdir_y(_sep,_dir-90), "Instances", obj_bullet_mine);
+			var inst = instance_create_layer(
+			x+lengthdir_x(_sep,_dir-90),y+lengthdir_y(_sep,_dir-90), "Instances", obj_bullet_mine);
 			initialise_bullet(_dir,_spd,_fac, id, inst);
 			break;
 		

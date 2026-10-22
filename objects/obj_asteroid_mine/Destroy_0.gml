@@ -1,3 +1,29 @@
 if(irandom_range(0,5) == 0){
 	instance_create_layer(x,y, "Instances", obj_powerup);
 }
+
+score += 10;
+instance_destroy();
+audio_play_sound(snd_hurt, 1, false)
+
+	
+if(sprite_index == spr_asteroid_large){
+	global.cameraShake = 4;
+	
+	repeat(2){
+		var new_asteroid = instance_create_layer(x,y,"Instances",obj_asteroid_mine);
+		new_asteroid.sprite_index = spr_asteroid_medium;
+	}
+} else if (sprite_index == spr_asteroid_medium){
+	global.cameraShake = 2;
+	repeat(2){
+		var new_asteroid = instance_create_layer(x,y,"Instances",obj_asteroid_mine);
+		new_asteroid.sprite_index = spr_asteroid_small;
+	}
+} else {
+	global.cameraShake = 1;
+}
+	
+repeat(10){
+	instance_create_layer(x,y,"Instances",obj_debris);
+}
