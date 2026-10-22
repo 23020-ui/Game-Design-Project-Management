@@ -5,7 +5,7 @@ with(obj_game){
 }
 audio_play_sound(snd_hurt, 1, false)
 
-repeat(20){
-	direction = irandom_range(0,359);
-	instance_create_layer(x,y,"Instances",obj_debris);
+var _xx = x, _yy = y, _ib = image_blend;
+with(obj_particles){
+	part_particles_create_colour(partSys,_xx,_yy, partTypeShipDebris,_ib, 10);
 }

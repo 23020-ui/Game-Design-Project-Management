@@ -53,7 +53,6 @@
     {"id":{"name":"obj_brute","path":"objects/obj_brute/obj_brute.yy",},},
     {"id":{"name":"obj_bullet_mine","path":"objects/obj_bullet_mine/obj_bullet_mine.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
-    {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
     {"id":{"name":"obj_faction_ally","path":"objects/obj_faction_ally/obj_faction_ally.yy",},},
     {"id":{"name":"obj_faction_enemy","path":"objects/obj_faction_enemy/obj_faction_enemy.yy",},},
     {"id":{"name":"obj_faction_neutral","path":"objects/obj_faction_neutral/obj_faction_neutral.yy",},},

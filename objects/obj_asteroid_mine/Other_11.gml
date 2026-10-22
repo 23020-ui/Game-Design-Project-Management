@@ -18,8 +18,4 @@ if(sprite_index == spr_asteroid_large){
 		new_asteroid.sprite_index = spr_asteroid_small;
 	}
 }
-	
-repeat(10){
-	instance_create_layer(x,y,"Instances",obj_debris);
-}
 
